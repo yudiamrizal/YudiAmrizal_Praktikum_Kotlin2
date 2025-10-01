@@ -3,7 +3,7 @@ fun main(args: Array<String>) {
     connectToDb()
     println()
     //panggil dengan 2 argumen
-    connectToDb("sqlserver", "depandi")
+    connectToDb("sqlserver", "Yudi Amrizal")
 }
 
 fun connectToDb(hostname: String = "localhost",
