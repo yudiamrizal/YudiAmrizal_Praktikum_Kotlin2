@@ -20,10 +20,20 @@ fun main(args: Array<String>) {
     println(maybeNumber!! * 2)
 
      */
+    /*
     //Conditions
     var maybeNumber: Int? = 15
     if (maybeNumber != null)
         println(maybeNumber * 2)
     else
         println("The entered value isn't a number")
+
+     */
+    //Pemanggilan yang aman (Safe Calls)
+    //Safe calling
+//?.let
+    var maybeNumber: Int? = 15
+    maybeNumber?.let { println(it) }
+//The ?. chaining
+//student?.teacher?.supervisor?.name = "Seymour Skinner"
 }
